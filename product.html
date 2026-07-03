@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>product page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--tailwind css cdn link-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!--responsive navbar-->
+    <nav class="bg-green-100 p-3 flex items-center justify-between shadow-xl sticky top-0 z-10">
+        <h1 class="text-2xl">Greenden</h1>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" class="w-6 h-6 md:hidden">
+            <path fill-rule="evenodd"
+                d="M2 3.75A.75.75 0 0 1 2.75 3h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 3.75ZM2 8a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 8Zm0 4.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-500 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="product.html">Product</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="contact.html" target="_blank">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Product Section -->
+
+    <section class="p-5">
+
+        <h1 class="text-4xl font-bold text-center mt-5">
+            Our Products
+        </h1>
+
+        <!-- Search -->
+
+        <div class="flex justify-center mt-6">
+            <input type="text" placeholder="Search for a Product..." class="border border-black p-3 w-11/12 md:w-2/3">
+        </div>
+
+        <!-- Products -->
+
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-10 text-center">
+
+            <!-- Product 1 -->
+            <div>
+                <img src="./images/product_1.png" alt="product_1"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Rose Plant</h2>
+                <p>$20</p>
+            </div>
+
+            <!-- Product 2 -->
+            <div>
+                <img src="./images/product_2.png" alt="product_2"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Lily Plant</h2>
+                <p>$20</p>
+            </div>
+
+            <!-- Product 3 -->
+            <div>
+                <img src="./images/product_3.png" alt="product_3"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Hibiscus Rose</h2>
+                <p>$20</p>
+            </div>
+
+            <!-- Product 4 -->
+            <div>
+                <img src="./images/product_4.png" alt="product_4"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Snake Plant</h2>
+                <p>$20</p>
+            </div>
+
+            <!-- Product 5 -->
+            <div>
+                <img src="./images/product_5.png" alt="product_5"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Spider Plant</h2>
+                <p>$18</p>
+            </div>
+
+            <!-- Product 6 -->
+            <div>
+                <img src="./images/product_6.png" alt="product_6"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Money Plant</h2>
+                <p>$25</p>
+            </div>
+
+            <!-- Product 7 -->
+            <div>
+                <img src="./images/product_7.png" alt="product_7"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Aloe Vera</h2>
+                <p>$15</p>
+            </div>
+
+            <!-- Product 8 -->
+            <div>
+                <img src="./images/product_8.png" alt="product_8"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Peace Lily</h2>
+                <p>$22</p>
+            </div>
+
+            <!-- Product 9 -->
+            <div>
+                <img src="./images/product_9.png" alt="product_9"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Jade Plant</h2>
+                <p>$24</p>
+            </div>
+
+            <!-- Product 10 -->
+            <div>
+                <img src="./images/product_10.png" alt="product_10"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Fern Plant</h2>
+                <p>$19</p>
+            </div>
+
+            <!-- Product 11 -->
+            <div>
+                <img src="./images/product_11.png" alt="product_11"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Rubber Plant</h2>
+                <p>$28</p>
+            </div>
+
+            <!-- Product 12 -->
+            <div>
+                <img src="./images/product_12.png" alt="product_12"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Bamboo Plant</h2>
+                <p>$21</p>
+            </div>
+
+            <!-- Product 13 -->
+            <div>
+                <img src="./images/product_13.png" alt="product_13" 
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Succulent</h2>
+                <p>$16</p>
+            </div>
+
+            <!-- Product 14 -->
+            <div>
+                <img src="./images/product_14.png" alt="product_14"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Palm Plant</h2>
+                <p>$26</p>
+            </div>
+
+            <!-- Product 15 -->
+            <div>
+                <img src="./images/product_15.png" alt="product_15"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Croton Plant</h2>
+                <p>$23</p>
+            </div>
+
+            <!-- Product 16 -->
+            <div>
+                <img src="./images/product_16.png" alt="product_16"
+                    class="inline hover:shadow-xl transform hover:-translate-y-2 duration-300">
+                <h2 class="mt-2">Cactus Plant</h2>
+                <p>$17</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h2 class="text-4xl font-bold">Greenden</h2>
+        <p>Inspiring greener homes with premium plants and outstanding customer care.</p>
+        <p>© 2026 Greenden. All Rights Reserved.</p>
+
+    </section>
+</body>
+
+</html>
