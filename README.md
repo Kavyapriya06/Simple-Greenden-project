@@ -96,5 +96,5 @@ Through this project, I strengthened my understanding of:
 
 Aspiring Front-End Developer passionate about building responsive, accessible, and visually engaging web applications using modern web technologies.
 
-Project live link: https://kavyapriya06.github.io/Simple-Greenden-project/contact.html
+Project live link: https://kavyapriya06.github.io/Simple-Greenden-project/
 
